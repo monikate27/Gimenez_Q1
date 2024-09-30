@@ -27,7 +27,7 @@ public class StudentEnrollment {
         // Input number of units
         int numberOfUnits;
         do {
-            System.out.print("Enter number of units (Maximum 10): ");
+            System.out.print("Enter number of units (Maximum number of subjects 10): ");
             numberOfUnits = scanner.nextInt();
             if (numberOfUnits > 10) {
                 System.out.println("You cannot enroll in more than 10 units. Try again.");
